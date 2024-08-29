@@ -15,18 +15,18 @@ sudo apt update
 ## Baixar o script instalador
 [Script no GitHub](https://github.com/angristan/openvpn-install):
 ```bash
-wget https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh -O centos7-vpn.sh
+wget https://raw.githubusercontent.com/Angristan/openvpn-install/master/openvpn-install.sh -O openvpn-install.sh
 ```
 
 ## Dar poder de execução para o script
 ```bash
-chmod +x centos7-vpn.sh
+chmod +x openvpn-install.sh
 ```
 
 ## Executar o script para instalar
 Usar porta random, o resto pode ser default:
 ```bash
-./centos7-vpn.sh
+./openvpn-install.sh
 ```
 
 ## Editar o config do OpenVPN
@@ -65,5 +65,5 @@ firewall-cmd --reload
 ## Para criar/remover usuários
 Usar o mesmo script de instalação:
 ```bash
-./centos7-vpn.sh
+./openvpn-install.sh
 ```
