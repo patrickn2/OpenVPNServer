@@ -52,14 +52,24 @@ Se ele não tiver sido reiniciado, matar o servidor com o comando `kill`:
 systemctl restart openvpn@server
 systemctl status openvpn@server
 ```
+## Instalar Firewalld para segurança
+```bash
+sudo apt -y install firewalld
+````
 
-## Configurar Firewall
+## Desabilitar o firewall ufw caso exista
+```bash
+sudo ufw disable
+```
+
+## Configurar Firewalld
 Adicionando a porta escolhida pelo OpenVPN:
 ```bash
-systemctl start firewalld
-firewall-cmd --zone=public --permanent --add-port=PORTA/udp
-firewall-cmd --zone=public --permanent --add-masquerade
-firewall-cmd --reload
+sudo systemctl enable firewalld
+sudo systemctl start firewalld
+sudo firewall-cmd --zone=public --permanent --add-port=PORTA/udp
+sudo firewall-cmd --zone=public --permanent --add-masquerade
+sudo firewall-cmd --reload
 ```
 
 ## Para criar/remover usuários
