@@ -84,3 +84,6 @@ Usar o mesmo script de instalação:
 ## Na sua máquina
 Baixe o cliente de acordo com o seu OS
 https://openvpn.net/client/
+
+## Conecte na sua VPN usando o arquivo .ovpn gerado
+## Navegue feliz
