@@ -53,7 +53,7 @@ Se ele não tiver sido reiniciado, matar o servidor com o comando `kill`:
 systemctl restart openvpn@server
 systemctl status openvpn@server
 ```
-## Instalar Firewalld para segurança
+## Instalar Firewalld para segurança caso você esteja no Ubuntu
 ```bash
 sudo apt -y install firewalld
 ````
