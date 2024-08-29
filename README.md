@@ -67,3 +67,9 @@ Usar o mesmo script de instalação:
 ```bash
 ./openvpn-install.sh
 ```
+
+## Copie o arquivo gerado .ovpn de cliente para a sua máquina
+
+## Na sua máquina
+Baixe o cliente de acordo com o seu OS
+https://openvpn.net/client/
