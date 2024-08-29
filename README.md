@@ -2,9 +2,14 @@
 
 # Instalar OpenVPN no servidor de VPN
 
-## Fazer Update do sistema:
+## Fazer Update do sistema CentOS:
 ```bash
-yum update -y
+sudo yum update -y
+```
+
+## Fazer Update do sistema Ubuntu:
+```bash
+sudo apt update 
 ```
 
 ## Baixar o script instalador
