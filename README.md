@@ -1,6 +1,7 @@
 # OpenVPNServer
 
 # Instalar OpenVPN em uma VPS
+A ideia desse firewall é que ele "tunele" apenas os IPs especificados no config para que você economize banda e não tenha problema a assistir videos do youtube ou um netflix por exemplo.
 
 ## Fazer Update do sistema CentOS:
 ```bash
