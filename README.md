@@ -67,5 +67,3 @@ Usar o mesmo script de instalação:
 ```bash
 ./centos7-vpn.sh
 ```
-
-This Markdown formatting includes code blocks for commands and headers for different sections of the process.
