@@ -1,6 +1,6 @@
 # OpenVPNServer
 
-# Instalar OpenVPN no servidor de VPN
+# Instalar OpenVPN em uma VPS
 
 ## Fazer Update do sistema CentOS:
 ```bash
