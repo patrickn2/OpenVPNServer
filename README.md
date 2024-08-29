@@ -35,9 +35,13 @@ Comentar as linhas que possuem "push" e adicionar as linhas abaixo:
 vi /etc/openvpn/server.conf
 ```
 
-Adicionar as linhas abaixo no config:
+Adicionar a abaixo no config:
 ```bash
 push "route-nopull"
+```
+
+Adicionar as linhas abaixo no config para usar a VPN apenas nos IPs abaixo (ex: Twitter):
+```bash
 push "route 104.244.42.0 255.255.255.0"
 push "route 199.59.148.0 255.255.255.0"
 ```
