@@ -41,11 +41,12 @@ Adicionar a abaixo no config:
 push "route-nopull"
 ```
 
-Adicionar as linhas abaixo no config para usar a VPN apenas nos IPs abaixo (ex: Twitter):
+Agora aqui adicione todos os IPs dos sites que você quer que a VPN "tunele":
 ```bash
 push "route 104.244.42.0 255.255.255.0"
 push "route 199.59.148.0 255.255.255.0"
 ```
+No caso acima coloquei os IPs do Twitter que eu peguei aqui https://www.netify.ai/resources/applications/twitter
 
 ## Reiniciar o servidor e verificar status
 Se ele não tiver sido reiniciado, matar o servidor com o comando `kill`:
