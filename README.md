@@ -64,7 +64,7 @@ sudo ufw disable
 ```
 
 ## Configurar Firewalld
-Adicionando a porta escolhida pelo OpenVPN:
+Adicionando a porta escolhida pelo OpenVPN(Não esqueça de substituir "PORTA" pela porta que o instalador ou você escolheram na hora da instalacão do OpenVPNServer):
 ```bash
 sudo systemctl enable firewalld
 sudo systemctl start firewalld
